@@ -98,6 +98,8 @@ if ($_POST['login']){
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <!-- Include Bootstrap Min Css -->
   <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+  <!-- Include Style Css -->
+  <link rel="stylesheet" href="assets/css/style.css">
   <!-- Include Animate Min Css -->
   <link rel="stylesheet" href="assets/css/animate.min.css">
   <!-- Include Fontawesome Min Css -->
@@ -106,8 +108,6 @@ if ($_POST['login']){
   <link rel="stylesheet" href="assets/css/magnific-popup.css">
   <!-- bxSlider CSS file -->
   <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
-  <!-- Include Style Css -->
-  <link rel="stylesheet" href="assets/css/style.css">
   <!-- Include Responsive Css -->
   <link rel="stylesheet" href="assets/css/responsive.min.css">
   <!-- Include Hover Css -->
@@ -143,7 +143,7 @@ if ($_POST['login']){
             <span class="sr-only">Toggle navigation</span>
             MENU <i class="fa fa-bars"></i> 
           </button>
-        <a href="index.php" class="navbar-brand"><img src="images/logo-text.png" alt="Site Logo"></a>
+        <a href="index" class="navbar-brand"><img src="images/logo-text.png" alt="Site Logo"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -154,13 +154,14 @@ if ($_POST['login']){
           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">LANGUAGES <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="english.html" class="center-block">English<img class="language-flag" src="images/flags/uk.png"></a></li>
-                <li><a href="russian.html">Russian<img class="language-flag" src="images/flags/russia.png"></a></li>
-                <li><a href="arabic.html">Arabic &nbsp;&nbsp;<img class="language-flag" src="images/flags/arabia.png"></a></li>
-                <li><a href="chinese.html">Chinese<img class="language-flag" src="images/flags/china.png"></a></li>
-                <li><a href="turkish.html">Turkish<img class="language-flag img-rounded" src="images/flags/turkey.png"></a></li>
+                <li><a href="#!" class="center-block">English<img class="language-flag" src="images/flags/uk.png"></a></li>
+                <li><a href="#!">Russian<img class="language-flag" src="images/flags/russia.png"></a></li>
+                <li><a href="#!">Arabic &nbsp;&nbsp;<img class="language-flag" src="images/flags/arabia.png"></a></li>
+                <li><a href="#!">Chinese<img class="language-flag" src="images/flags/china.png"></a></li>
+                <li><a href="#!">Turkish<img class="language-flag img-rounded" src="images/flags/turkey.png"></a></li>
               </ul>
-            </li>   
+            </li> 
+         <li><a href="#!" id="tofooter" style="padding-top: 15px;height: 30px;">CONTACT US</a></li>   
         </ul>
       </nav>
     </div>
@@ -444,6 +445,9 @@ if ($_POST['login']){
     }, 0); // delay time in milliseconds
   });
  
+  $("document").ready(function(){
+      var result = window.location.pathname.replace(/\.[^\.\/]+$/, "").substr(1);      
+  });
 </script>
 
   <!-- Created by Jafar Salami ---->

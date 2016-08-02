@@ -82,7 +82,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             <span class="sr-only">Toggle navigation</span>
             MENU <i class="fa fa-bars"></i> 
           </button>
-        <a href="index.php" class="navbar-brand"><img src="images/logo-text.png" alt="Site Logo"></a>
+        <a href="index" class="navbar-brand"><img src="images/logo-text.png" alt="Site Logo"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -93,11 +93,11 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">LANGUAGES <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="english.html" class="center-block">English<img class="language-flag" src="images/flags/uk.png"></a></li>
-                <li><a href="russian.html">Russian<img class="language-flag" src="images/flags/russia.png"></a></li>
-                <li><a href="arabic.html">Arabic &nbsp;&nbsp;<img class="language-flag" src="images/flags/arabia.png"></a></li>
-                <li><a href="chinese.html">Chinese<img class="language-flag" src="images/flags/china.png"></a></li>
-                <li><a href="turkish.html">Turkish<img class="language-flag img-rounded" src="images/flags/turkey.png"></a></li>
+                <li><a href="#!" class="center-block">English<img class="language-flag" src="images/flags/uk.png"></a></li>
+                <li><a href="#!">Russian<img class="language-flag" src="images/flags/russia.png"></a></li>
+                <li><a href="#!">Arabic &nbsp;&nbsp;<img class="language-flag" src="images/flags/arabia.png"></a></li>
+                <li><a href="#!">Chinese<img class="language-flag" src="images/flags/china.png"></a></li>
+                <li><a href="#!">Turkish<img class="language-flag img-rounded" src="images/flags/turkey.png"></a></li>
               </ul>
             </li>
             <li><a href="#!" id="contactus">CONTACT US</a></li>   
@@ -375,7 +375,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#frank" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
                 </div>
                 <br><br>
@@ -476,7 +476,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
                 </div>
                 </div>
@@ -574,7 +574,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -669,7 +669,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -763,7 +763,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -862,7 +862,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -954,7 +954,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask" >Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask" >Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -1052,7 +1052,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -1153,7 +1153,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -1251,7 +1251,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -1351,7 +1351,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -1449,7 +1449,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                   <div class="col-md-4 info-button" style="t"><a href="#!" class="ask" data-toggle="modal" data-target="#login-modal">Free Consultation</a>
                   </div>
                  
-                  <div class="col-md-4 info-button" style="t"><a href="assessment.php" class="ask">Free Assessment</a>
+                  <div class="col-md-4 info-button" style="t"><a href="assessment" class="ask">Free Assessment</a>
                   </div>
          </div>
         </div>
@@ -1686,7 +1686,13 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             <h2 class="section-title"><span>Our</span> Testimonials</h2>
           </div>
           <div class="section-details wow animated fadeInUp" data-wow-delay=".5s">
-            <div id="testimonial-slider" class="testimonial-slider carousel slide" data-ride="carousel">
+            <div class="col-md-3 text-center">
+                <center><i class="fa fa-users fa-5x" aria-hidden="true"></i>
+                <h3>WHAT OUR CLIENT'S SAY</h3>
+                </center>
+            </div>
+            <div class="col-md-9">
+                <div id="testimonial-slider" class="testimonial-slider carousel slide" data-ride="carousel">
 
               <ol class="carousel-indicators">
                 <li data-target="#testimonial-slider" data-slide-to="0" class="active"></li>
@@ -1699,7 +1705,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                 <div class="item active">
                   <blockquote class="client-quote">
                     Chinese consultant at Mann’s Solutions is so good! He help me with to get Tier 4 visa, and the accommodation is good too. — Tong W.
-                    <br><br><br>
+                    <br><br><br><br>
                   </blockquote>
                 </div>
                 <div class="item">
@@ -1716,13 +1722,20 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                 <div class="item">
                   <blockquote class="client-quote">
                     Thank you so much for the help, I have always wanted to start my own business and now I can because of you, definitely will recommend to others. — Andrey A.
-                    <br><br><br>
+                    <br><br><br><br>
                   </blockquote>
                 </div>
+              </div>    
               </div>
-              </div>
-              <br><br><br>
-              <div class="col-md-6 col-sm-6">
+                <br><br><br>
+            </div>
+            
+            <div class="col-md-3">
+                <br><br><br>
+              <img src="images/googlelogo.png" width="100px" height="100px" alt="google logo">
+              <h3>OUR GOOGLE REVIEWS</h3>
+            </div>
+              <div class="col-md-4 col-sm-4">
         				    <div class="block-text rel zmin">
 						        <a title="" href="#">
 							    <div class="mark">Their rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span> 
@@ -1736,7 +1749,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 								<a title="" href="#">黄圣涵</a>
 							</div>
 						</div>
-            			<div class="col-md-6 col-sm-6">
+            			<div class="col-md-4 col-sm-4">
 						    <div class="block-text rel zmin">
 						        <a title="" href="#">
 							    <div class="mark">Their rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span> </span></div>
@@ -1749,13 +1762,39 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 						        <a title="" href="#">Jan Wong</a>
 							</div>
 						</div>
+              <div class="col-md-3">
+                <br><br><br>
+                <img src="images/trustpilot.png" width="100px" height="100px" alt="Trustpilot logo">
+                <h3>OUR TRUSTPILOT REVIEWS</h3>
+              </div>
+              <div class="col-md-9">
+                
+              </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-
+  <section id="social-media" class="social-media text-center" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="0">
+    <div class="pattern-overlay">
+      <div class="section-padding">
+        <div class="container">
+          <div class="section-top wow animated fadeInUp" data-wow-delay=".5s">
+            <h2 class="section-title"><span>Social Media</span></h2>
+            <div class="col-md-12">
+                <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
+<link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+<ul class="juicer-feed" data-feed-id="manns-solutions" data-per="6"><h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer</a></h1></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+            
+            
+            
   <section id="solutions" class="blog text-center">
     <div id="contactinfo">
     <div class="section-padding">
@@ -1893,6 +1932,9 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
     }, 0); // delay time in milliseconds
   });
  
+  $("document").ready(function(){
+      var result = window.location.pathname.replace(/\.[^\.\/]+$/, "").substr(1);      
+  });
 </script>
   <!-- Created by Jafar Salami ---->
 </body>

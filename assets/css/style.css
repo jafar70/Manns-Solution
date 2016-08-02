@@ -706,6 +706,12 @@ button:focus {
     color: #ffffff;
 }
 
+.social-media{
+    background: url("http://static.vecteezy.com/system/resources/previews/000/094/491/original/polygonal-texture-background-vector.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
 .testimonials {
     background: url(../../images/background/shop.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -2207,7 +2213,7 @@ footer .widget-title {
     transform: translateY(-15px); } }
 
 .pattern-overlay {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #top-link {

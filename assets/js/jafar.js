@@ -50,6 +50,12 @@ $(document).ready(function () {
         scrollTop: $("#contactinfo").offset().top - 50
     }, 2000);
     });
+    
+    $("#tofooter").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#colophon").offset().top - 50
+    }, 2000);
+    });
         
     $("#arrowtoaboutus").click(function() {
     $('html, body').animate({
@@ -291,4 +297,5 @@ $("#comsupport").stop.click(function() {
         scrollTop: $("#compliance").offset().top - 50
     }, 2000);
 });
+
 
