@@ -2237,3 +2237,7 @@ footer .widget-title {
 .nicescroll-rails{
     color:green;
 }
+
+.terms{
+    list-style-type: none;
+}

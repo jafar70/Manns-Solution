@@ -87,13 +87,13 @@ if ($_POST['login']){
 <!--[if gt IE 8]><!--> <!--<![endif]-->
 <html class="no-js" lang="en"> 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Manns Solutions – UK Citizenship via investments. Tier 1 investor visa, Tier 1 entrepreneur, Sole representative visa</title>
-  <meta name="description" content="Tier 1 Visas Experts - Mann's Solutions Firm">
+  <title>Mann's Solutions - Free Assessment to obtain your visa</title>
+  <meta name="description" content="We help our clients to obtain individual visas (Tier 2, Tier 4, Turkish Worker Visa), business visas (Tier 1 Investor and Entrepreneur, Sole Representative, Turkish Business person) and corporate visas (Tier 2 Sponsor, Tier 4 Sponsor).">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRppT0gYIRzq9Ahfry4QbmYIAhGOhLQ45GEDRkRvihjukAsRhaX" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <!-- Include Bootstrap Css -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <!-- Include Bootstrap Min Css -->
@@ -114,8 +114,7 @@ if ($_POST['login']){
   <link rel="stylesheet" href="assets/css/hover.css">
   <!-- Include Modernizer Js -->
   <script src="assets/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-  <script src="mail.js"></script>
-    
+  <!-- <script src="mail.js"></script> -->
   <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -143,7 +142,7 @@ if ($_POST['login']){
             <span class="sr-only">Toggle navigation</span>
             MENU <i class="fa fa-bars"></i> 
           </button>
-        <a href="index" class="navbar-brand"><img src="images/logo-text.png" alt="Site Logo"></a>
+        <a href="http://manns-solutions.com/" class="navbar-brand"><img src="images/logo-text.png" alt="Site Logo"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -155,10 +154,6 @@ if ($_POST['login']){
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">LANGUAGES <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#!" class="center-block">English<img class="language-flag" src="images/flags/uk.png"></a></li>
-                <li><a href="#!">Russian<img class="language-flag" src="images/flags/russia.png"></a></li>
-                <li><a href="#!">Arabic &nbsp;&nbsp;<img class="language-flag" src="images/flags/arabia.png"></a></li>
-                <li><a href="#!">Chinese<img class="language-flag" src="images/flags/china.png"></a></li>
-                <li><a href="#!">Turkish<img class="language-flag img-rounded" src="images/flags/turkey.png"></a></li>
               </ul>
             </li> 
          <li><a href="#!" id="tofooter" style="padding-top: 15px;height: 30px;">CONTACT US</a></li>   
@@ -415,7 +410,7 @@ if ($_POST['login']){
   <!-- Created by Jafar Salami ---->
   <div class="credits">
       <div class="container text-center">
-          <p>COPYRIGHT © 2015 MANN’S SOLUTIONS LTD. <br> ALL RIGHTS RESERVED</p>
+          <p>COPYRIGHT © 2015-2016 MANN'S SOLUTIONS LTD. <br> ALL RIGHTS RESERVED</p>
       </div>
   </div>
  

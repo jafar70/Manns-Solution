@@ -22,17 +22,14 @@ if ($_POST['submit']){
 <!--[if gt IE 8]><!--> <!--<![endif]-->
 <html class="no-js" lang="en"> 
 <head>
-  <meta charset="utf-8">
   <meta charset="UTF-8">
-  <meta name="description" content="Differernt Visas that Manns Solution provides.">
-  <meta name="keywords" content="Tier 1 Entrepreneur Visa,Tier 1 Investor Visa,family visa,Manns Solutions">
   <meta name="Manns Solutions" content="Hege Refsnes">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Manns Solutions – UK Citizenship via investments. Tier 1 investor visa, Tier 1 entrepreneur, Sole representative visa</title>
-  <link rel="icon" type="image/png" href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRppT0gYIRzq9Ahfry4QbmYIAhGOhLQ45GEDRkRvihjukAsRhaX" />
-  <meta name="description" content="Tier 1 Visas Experts - Mann's Solutions Firm">
+  <title>UK Citizenship via investments. Tier 1 investor, entrepreneur, Sole representative visas</title>
+  <meta name="description" content="Mann's Solutions is a professional team of advisors which own 40 years combined experience in immigration, investment, accounting and business services field.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRppT0gYIRzq9Ahfry4QbmYIAhGOhLQ45GEDRkRvihjukAsRhaX" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <!-- Include Bootstrap Css -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <!-- Include Bootstrap Min Css -->
@@ -54,7 +51,7 @@ if ($_POST['submit']){
   <link rel="stylesheet" href="assets/css/jquery.bxslider.css">
   <!-- Include Modernizer Js -->
   <script src="assets/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-  <script src="mail.js"></script>
+  <!-- <script src="mail.js"></script> -->
   <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -82,7 +79,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             <span class="sr-only">Toggle navigation</span>
             MENU <i class="fa fa-bars"></i> 
           </button>
-        <a href="index" class="navbar-brand"><img src="images/logo-text.png" alt="Site Logo"></a>
+        <a href="http://manns-solutions.com/" class="navbar-brand"><img src="images/logo-text.png" alt="Site Logo"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -93,11 +90,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">LANGUAGES <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#!" class="center-block">English<img class="language-flag" src="images/flags/uk.png"></a></li>
-                <li><a href="#!">Russian<img class="language-flag" src="images/flags/russia.png"></a></li>
-                <li><a href="#!">Arabic &nbsp;&nbsp;<img class="language-flag" src="images/flags/arabia.png"></a></li>
-                <li><a href="#!">Chinese<img class="language-flag" src="images/flags/china.png"></a></li>
-                <li><a href="#!">Turkish<img class="language-flag img-rounded" src="images/flags/turkey.png"></a></li>
+                <li><a href="#" class="center-block">English<img class="language-flag" src="images/flags/uk.png"></a></li>
               </ul>
             </li>
             <li><a href="#!" id="contactus">CONTACT US</a></li>   
@@ -128,6 +121,28 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
           </div>
   </div>
   
+<!-- terms and conditions Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title text-center" id="myModalLabel">Terms & Conditions </h4>
+      </div>
+      <div class="modal-body">
+        <p>Welcome to our website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern Mann's Solutions's relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.<br><br>
+            
+        The term Mann's Solutions or 'us' or 'we' refers to the owner of the website whose registered office is 3 Devonshire Street, London, W1W 5DT. Our company registration number is [company registration number and place of registration]. The term 'you' refers to the user or viewer of our website.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
   <div class="bs-example">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Carousel indicators -->
@@ -157,7 +172,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
               <div class="know-about-us wow animated fadeInLeft" data-wow-delay=".5s">
                 <h2 class="section-title"><span>About Us</span></h2>
                 <p style="color:black;">
-                  Mann’s Solutions provides assistance in immigration, business, property and finance. We help our clients to obtain individual visas (Tier 2, Tier 4, Turkish Worker Visa), business visas (Tier 1 Investor and Entrepreneur, Sole Representative,
+                  Mann's Solutions provides assistance in immigration, business, property and finance. We help our clients to obtain individual visas (Tier 2, Tier 4, Turkish Worker Visas), business visas (Tier 1 Investor and Entrepreneur, Sole Representative,
 
                 Turkish Business person) and corporate visas (Tier 2 Sponsor, Tier 4 Sponsor).
 
@@ -167,7 +182,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
                 and smoothly.<br><br>
 
-                Mann’s Solutions is a professional team of advisors which own 40 years’
+                Mann's Solutions is a professional team of advisors which own 40 years’
 
                 combined experience in immigration, investment, accounting and business
 
@@ -387,7 +402,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                     The Tier 1 (Entrepreneur) visa is designed for individuals who would like to relocate to the UK by setting up or run a business in the UK and has available funds to invest. Applicants can bring their family members, which includes a spouse/civil partner and children under the age of 18.</p>
                     <ul class="readmorelist">
                         <li>The applicant will need to invest £200 000 or £50 000;</li>
-                        <li>The visa is granted for 3 years and 4 months and can be extended as long as you created a business and new jobs;</li>
+                        <li>Granted for 3 years and 4 months and can be extended as long as you created a business and new jobs;</li>
                         <li>The visa holder is permitted 180 days outside of the UK per year;</li>
                         <li>To apply for Leave to remain (ILR) after 5 years of continuous residence, so long as the applicant has not left the UK for more than 450 days and 90 days during the final 12 months;</li>
                         <li>To apply for Naturalisation, the visa holders after 6 years of continuous residence, same restrictions on leaving the UK apply;</li>
@@ -493,7 +508,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                         <li>The visa is granted for 3 years and 4 months and can be extended for an additional 2 years.</li>
                         <li>The number of days an applicant is permitted to spend outside the UK is 180 days per year.</li>
                         <li>How fast an applicant can apply for Indefinite Leave to Remain (ILR) will depend on the invested amount.</li>
-                        <li>Visa holders are eligible to apply for Naturalisation after 6 years of continuous residence.</li>
+                        <li>Holders are eligible to apply for Naturalisation after 6 years of continuous residence.</li>
                     </ul>
                 </div>
                 </div>
@@ -552,7 +567,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                 </div>
                 <div class="visa-item col-md-2">
                   <div class="row"><img class="visa-info" src="images/visa-table/family.png"></div>
-                  <div class="row">Visa is issued for a family for 3 years (with an option to extend for 2 years)</div>
+                  <div class="row">Issued for a family for 3 years (with an option to extend for 2 years)</div>
                 </div>
                 <div class="visa-item col-md-2">
                   <div class="row"><img class="visa-info" src="images/visa-table/international.png"></div>
@@ -584,7 +599,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
         <div class="content" style="text-align:left;">
                     <p>The Sole Representative Visa is designed for companies, when they would like to establish the first commercial presence in the UK, such as a branch or subsidiary. The company will need to send a senior employee of the overseas business to Britain and establish a branch or wholly owned subsidiary with the same type of business as the overseas company.</p>
                     <ul class="readmorelist">
-                        <li>To apply for this visa a senior employee will need to be recruited by an overseas company who has no UK branch.</li>
+                        <li>To apply a senior employee will need to be recruited by an overseas company who has no UK branch.</li>
                         <li>The applicant will need Basic English language ability and take all operational decisions on behalf of the newly established branch or subsidiary.</li>
                         <li>This type of visa is granted for 3 years and can be extended for another 2 years.</li>
                         <li>The applicant can apply for Indefinite Leave to Remain (ILR) after 5 years of continuous stay and needs to stay with the same company.</li>
@@ -782,7 +797,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                         <li>To switch an employer a visa holder would need to complete the Resident Labour Market test;</li>
                         <li>This visa is granted for a maximum of 5 years and 14 days;</li>
                         <li>After 5 years of continuous residence the visa holder can apply for Indefinite Leave to Remain (ILR);</li>
-                        <li>After 6 years of continuous residence the visa holder can apply for Naturalisation;</li>
+                        <li>After 6 years of continuous residence the holder can apply for Naturalisation;</li>
                     </ul>
                 </div>
         </div>
@@ -1613,7 +1628,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
                 <article class="type-post post wow animated fadeInUp" data-wow-delay=".55s">
                   <div class="post-thumbnail">
-                    <img src="images/services/business.jpg" class="round-pic" alt="post image">
+                    <img src="images/services/business.jpg" class="round-pic img-responsive" alt="post image">
                   </div>
 
                   <div class="post-content">
@@ -1628,7 +1643,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
                 <article class="type-post post wow animated fadeInUp" data-wow-delay=".35s">
                   <div class="post-thumbnail">
-                    <img src="images/services/property.jpg" class="round-pic" alt="post image">
+                    <img src="images/services/property.jpg" class="round-pic img-responsive" alt="post image">
                   </div>
 
                   <div class="post-content">
@@ -1643,7 +1658,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
                 <article class="type-post post wow animated fadeInUp" data-wow-delay=".75s">
                   <div class="post-thumbnail">
-                    <img src="images/services/financial.jpg" class="round-pic" alt="post image">
+                    <img src="images/services/financial.jpg" class="round-pic img-responsive" alt="post image">
                   </div>
 
                   <div class="post-content">
@@ -1658,7 +1673,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
                 <article class="type-post post wow animated fadeInUp" data-wow-delay=".35s">
                   <div class="post-thumbnail">
-                    <img src="images/services/concierge.jpg" class="round-pic" alt="post image">
+                    <img src="images/services/concierge.jpg" class="round-pic img-responsive" alt="post image">
                   </div>
 
                   <div class="post-content">
@@ -1704,13 +1719,13 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <blockquote class="client-quote">
-                    Chinese consultant at Mann’s Solutions is so good! He help me with to get Tier 4 visa, and the accommodation is good too. — Tong W.
+                    Chinese consultant at Mann's Solutions is so good! He help me with to get Tier 4 visa, and the accommodation is good too. — Tong W.
                     <br><br><br><br>
                   </blockquote>
                 </div>
                 <div class="item">
                   <blockquote class="client-quote">
-                    I am so glad that I turned to Mann’s Solutions for help with my investor Visa application. At first I didn’t even know where to begin and I felt so desperate, but when I decided to use the service Mann’s Solutions provide, things got a lot better, adviser was very patient and responsible, always answering the call and emails on the spot. Thank you for making my application possible. — Xinyi Q.
+                    I am so glad that I turned to Mann's Solutions for help with my investor Visa application. At first I didn’t even know where to begin and I felt so desperate, but when I decided to use the service Mann's Solutions provide, things got a lot better, adviser was very patient and responsible, always answering the call and emails on the spot. Thank you for making my application possible. — Xinyi Q.
                   </blockquote>
                 </div>
                 <div class="item">
@@ -1733,7 +1748,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             <div class="col-md-3">
                 <br><br><br>
               <img src="images/googlelogo.png" width="100px" height="100px" alt="google logo">
-              <h3>OUR GOOGLE REVIEWS</h3>
+              <h3>GOOGLE REVIEWS</h3>
             </div>
               <div class="col-md-4 col-sm-4">
         				    <div class="block-text rel zmin">
@@ -1765,7 +1780,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
               <div class="col-md-3">
                 <br><br><br>
                 <img src="images/trustpilot.png" width="100px" height="100px" alt="Trustpilot logo">
-                <h3>OUR TRUSTPILOT REVIEWS</h3>
+                <h3>TRUSTPILOT REVIEWS</h3>
               </div>
               <div class="col-md-9">
                 
@@ -1782,11 +1797,29 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
         <div class="container">
           <div class="section-top wow animated fadeInUp" data-wow-delay=".5s">
             <h2 class="section-title"><span>Social Media</span></h2>
-            <div class="col-md-12">
+            <div class="col-md-3">
+                <br><br>
+                <div class="post-thumbnail">
+                    <a href="https://twitter.com/manns_solutions"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/945px-Twitter_bird_logo_2012.svg.png" class="round-pic img-responsive" alt="post image"></a>
+                </div>
+            </div>
+            <div class="col-md-9">
                 <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
 <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-<ul class="juicer-feed" data-feed-id="manns-solutions" data-per="6"><h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer</a></h1></ul>
+<ul class="juicer-feed" data-feed-id="manns-solutions" data-per="6"><h1 class="referral"><a href="https://www.juicer.io"></a></h1></ul>
             </div>
+              
+            <div class="col-md-3">
+                <br><br>
+                <div class="post-thumbnail">
+                    <a href="https://www.facebook.com/manns.solutions/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" class="round-pic img-responsive" alt="post image"></a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <br>
+                <ul class="juicer-feed" data-feed-id="mannssolutionss"><h1 class="referral"><a href="https://www.juicer.io"></a></h1></ul>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -1837,9 +1870,11 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
       <div class="section-padding">
         <div class="container">
           <div class="row">
-
             <div class="col-md-4">
               <div class="widget widget_latest-blog-post">
+                <ul class="terms">
+                    <li><a href="#!" class="entry-title" data-toggle="modal" data-target="#myModal">Terms and Conditions</a></li>
+                </ul>
                 <h3 class="widget-title">Recent Blog Posts</h3>
                 <div class="widget-details">
                   <div class="title-list">
@@ -1903,7 +1938,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
   <!-- Created by Jafar Salami ---->
   <div class="credits">
       <div class="container text-center">
-          <p>COPYRIGHT © 2015 MANN’S SOLUTIONS LTD. <br> ALL RIGHTS RESERVED</p>
+          <p>COPYRIGHT © 2015-2016 MANN'S SOLUTIONS LTD. <br> ALL RIGHTS RESERVED</p>
       </div>
   </div>
  
@@ -1924,6 +1959,8 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
   <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <!-- Include Custom Js </-->
   <script src="assets/js/custom.min.js"></script>
+  <!-- Minified Cookie Consent served from our CDN -->
+<!--Start Cookie Script--> <script type="text/javascript" charset="UTF-8" src="http://chs03.cookie-script.com/s/62c9f49b18f840528737a21b500585cd.js"></script> <!--End Cookie Script-->
   <script>
  
   $zopim(function() {
