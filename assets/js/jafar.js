@@ -34,6 +34,8 @@ jQuery(document).ready(function() {
   });
 });
 
+
+
 $(document).ready(function () {
     $(".content").hide();
     $(".show_hide").on("click", function () {
